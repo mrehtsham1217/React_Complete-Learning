@@ -11,9 +11,9 @@ const Youtube = () => {
   //   console.log("Counter decrement", counter);
   // }
   return (
-    <div>
-      <h1>Welcome to Counter Application in react</h1>
-      <h2>COunt value :{ counter}</h2>
+    <div className="w-[600px] bg-blue-500">
+      <h1 className="bg-green-500">Welcome to Counter Application in react</h1>
+      <h2>Count value :{ counter}</h2>
       <button
         onClick={() => {
           setCounter(counter+1)

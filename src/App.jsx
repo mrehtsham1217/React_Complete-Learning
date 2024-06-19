@@ -1,6 +1,7 @@
 import { useState } from 'react';
-import './App.css';
-import Colors from './components/colors';
+// import './App.css';
+// import Colors from './components/colors';
+import PasswordGen from './components/PasswordGen';
 
 function App() {
   // const [color, setColor] = useState("olive");
@@ -16,10 +17,11 @@ function App() {
     //     </button>
     //   </div>
     //   <Card username="Ehtsham khaliq" btnText="Click me"/>
-    //     <Card username="Fatima Tariq" btnText="Visit me"/>
+    //     <Card username="Ehtsham Tariq" btnText="Visit me"/>
     // </>
     <div>
-      <Colors />
+      {/* <Colors /> */}
+      <PasswordGen />
 
     </div>
     
